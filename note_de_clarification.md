@@ -2,33 +2,33 @@
 
 ## Objets
 
--Ressource (classe mère de Livre, OeuvreMusicale et Film):  
-&nbsp;-code (chaine de caractères, clé)  
+Ressource (classe mère de Livre, OeuvreMusicale et Film):  
+  -code (chaine de caractères, clé)  
   -titre (chaine de caractères)  
   -dateApparition (date)  
   -éditeur (chaine de caractères)  
   -genre (chaine de caractères)  
   -codeClassification (chaine de caractères, unique)
 
--Livre:  
+Livre:  
   -isbn (chaine de caractères, unique)  
   -résumé (texte)  
   -langue (chaine de caractères)
 
--OeuvreMusicale:  
+OeuvreMusicale:  
   -longueur (entier)
 
--Film:  
+Film:  
   -durée (entier)  
   -synopsis (texte)  
   -langue (chaine de caractères)
 
--Exemplaire:  
+Exemplaire:  
   -état (neuf|bon|abimé|perdu)  
   -disponible (booléen)  
   -> associé à Ressource (1..n - 1)
 
--Contributeur:  
+Contributeur:  
   -nom (chaine de caractères)  
   -prénom (chaine de caractères)  
   -dateNaissance (date)  
@@ -39,7 +39,7 @@
   -> réalise un Film (1..n - *)  
   -> joue dans un Film (1..n - *)
 
--Membre:  
+Membre:  
   -login (chaine de caractères, clé)  
   -motDePasse (chaine de caractères)  
   -nom (chaine de caractères)  
@@ -47,7 +47,7 @@
   -adresse (chaine de caractères)  
   -email (chaine de caractères)
 
--Adhérent:  
+Adhérent:  
   -login (chaine de caractères, clé)  
   -motDePasse (chaine de caractères)  
   -nom (chaine de caractères)  
@@ -60,7 +60,7 @@
   -droitPrêt (booléen)
   -blacklisté (booléen)
 
--Prêt:  
+Prêt:  
   -datePrêt (date)  
   -dateRetourPrévue (date)
   -dateRetourRéelle (date)
@@ -68,13 +68,13 @@
   -> concerne un Exemplaire (* - 1)
   -> est effectué par un Adhérent (* - 1)
 
--Sanction (classe mère de Retard et Dégradation)
+Sanction (classe mère de Retard et Dégradation)
 
--Retard:
+Retard:
   -débutSanction (date)
   -finSanction (date)
 
--Dégradation:
+Dégradation:
   -motif (détérioration|perte)
   -débutSanction (date)
   -finSanction (date)
@@ -110,13 +110,13 @@
 
 ## Utilisateurs
 
--Membres de la bibliothèques:  
+Membres de la bibliothèques:  
   -gèrent des ressources documentaires: ajouter des documents, modifier leur description, ajouter des exemplaires d'un document, etc.  
   -gèrent les prêts, les retards et les sanctions  
   -gèrent les données des utilisateurs  
   -établissent des statistiques sur les documents empruntés par les adhérents
 
--Adhérents:
+Adhérents:
   -recherchent des documents  
   -effectuent et gèrent leurs emprunts  
   -peuvent se désinscrire et se réinscrire
