@@ -3,7 +3,7 @@
 ## Objets
 
 -Ressource (classe mère de Livre, OeuvreMusicale et Film):  
-  -code (chaine de caractères, clé)  
+&nbsp;-code (chaine de caractères, clé)  
   -titre (chaine de caractères)  
   -dateApparition (date)  
   -éditeur (chaine de caractères)  
@@ -117,6 +117,6 @@
   -établissent des statistiques sur les documents empruntés par les adhérents
 
 -Adhérents:
-  -recherchent des documents
-  -effectuent et gèrent leurs emprunts
+  -recherchent des documents  
+  -effectuent et gèrent leurs emprunts  
   -peuvent se désinscrire et se réinscrire
