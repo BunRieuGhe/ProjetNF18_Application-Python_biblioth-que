@@ -55,9 +55,9 @@
   -dateNaissance (date)  
   -adresse (chaine de caractères)  
   -email (chaine de caractères)  
-  -téléphone (entier)
-  -adhésion (booléen)
-  -droitPrêt (booléen)
+  -téléphone (entier)  
+  -adhésion (booléen)  
+  -droitPrêt (booléen)  
   -blacklisté (booléen)
 
 **Prêt:**  
@@ -116,7 +116,7 @@
   -gèrent les données des utilisateurs  
   -établissent des statistiques sur les documents empruntés par les adhérents
 
-**Adhérents:**
+**Adhérents:**  
   -recherchent des documents  
   -effectuent et gèrent leurs emprunts  
   -peuvent se désinscrire et se réinscrire
