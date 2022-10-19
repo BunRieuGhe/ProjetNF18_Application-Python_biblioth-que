@@ -102,7 +102,7 @@
 
 -Si un adhérent rend un document en retard, son droit d'emprunt est suspendu pour une durée égale au nombre de jours de retard
 
--Si un adhérent degrade ou perd un document, son droit d'emprunt est suspendu jusqu'à ce qu'il rembourse le document
+-Si un adhérent dégrade ou perd un document, son droit d'emprunt est suspendu jusqu'à ce qu'il rembourse le document
 
 -En cas de sanctions répétées, un adhérent peut être blacklisté
 
