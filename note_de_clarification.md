@@ -68,7 +68,9 @@
   -> concerne un Exemplaire (* - 1)  
   -> est effectué par un Adhérent (* - 1)
 
-**Sanction (classe mère de Retard et Dégradation)**
+**Sanction (classe mère de Retard et Dégradation)**  
+  -> s'applique à un Adhérent (* - 1)  
+  -> est associée à un Prêt (0..1 - 1)
 
 **Retard:**  
   -débutSanction (date)  
